@@ -1,0 +1,32 @@
+# Игнорировать файлы окружения с конфиденциальными данными
+.env
+
+# Игнорировать файлы кэша
+analytics_cache.json
+comments_cache.json
+report_data.json
+
+# Игнорировать файлы учетных данных
+client_secrets.json
+analytics_credentials.json
+chat_id.txt
+
+# Игнорировать файлы токенов
+token.pickle
+analytics_token.pickle
+
+# Игнорировать логи
+*.log
+youtube_bot.log
+
+# Игнорировать временные файлы и кэш Python
+__pycache__/
+*.py[cod]
+
+# Игнорировать виртуальные окружения
+venv/
+.env/
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
